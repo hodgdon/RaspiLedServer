@@ -1,0 +1,3 @@
+include ':app'
+include ':libled'
+project(':libled').projectDir = new File('../RaspiCommon/libled')
